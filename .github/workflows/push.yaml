@@ -1,0 +1,14 @@
+name: push
+on: 
+  push:
+    branches:
+      - master
+      - main
+    tags:        
+      - v*
+
+jobs:
+  call-workflow:
+    uses: raf-backstage-demo/shared-workflows/.github/workflows/quarkus-self-hosted.yaml@main
+    with:
+      app: app-2

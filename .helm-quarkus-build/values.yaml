@@ -1,0 +1,8 @@
+# Default values for quarkus-build.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+github:
+  owner: dummy
+  repo_name: dummy
+  commit_sha: dummy

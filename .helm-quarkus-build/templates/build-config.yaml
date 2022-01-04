@@ -1,0 +1,24 @@
+kind: BuildConfig
+apiVersion: build.openshift.io/v1
+metadata:
+  name: "{{ include "quarkus-build.fullname" . }}"
+  labels:
+    {{- include "quarkus-build.labels" . | nindent 4 }}
+spec:
+  output:
+    to:
+      kind: DockerImage
+      name: 'ghcr.io/{{ .Values.github.owner }}/{{ .Values.github.repo_name }}:{{ .Values.github.commit_sha }}'
+    pushSecret:
+      name: '{{ include "quarkus-build.fullname" . }}-ghcr-pusher'    
+  strategy:
+    type: Source
+    sourceStrategy:
+      from:
+        kind: DockerImage
+        name: 'quay.io/quarkus/ubi-quarkus-native-s2i:21.3-java11'
+  source:
+    type: Git
+    git:
+      uri: 'https://github.com/{{ .Values.github.owner }}/{{ .Values.github.repo_name }}'
+  runPolicy: Serial
