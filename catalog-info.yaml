@@ -7,11 +7,17 @@ metadata:
     - java
     - quarkus
   links:
-    - url: https://codeready-openshift-workspaces.apps.tmp-raffa.demo.red-chesterfield.com/#https://github.com/raf-backstage-demo/my-quarkus2
-      title: Code Ready Workspaces
+    - url: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2
+      title: CodeReady Workspaces (Eclipse Theia)
+      icon: web
+    - url: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-code/insiders
+      title: CodeReady Workspaces (MS VSCode)
+      icon: web    
+    - url: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-idea/next
+      title: CodeReady Workspaces (JetBrains IntelliJ)
       icon: web    
   annotations:
-    github.com/project-slug: raf-backstage-demo/my-quarkus2
+    github.com/project-slug: che-incubator/backstage-demo-quarkus2
     'backstage.io/kubernetes-id': my-quarkus2
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=my-quarkus2'
     'backstage.io/techdocs-ref': dir:.
