@@ -33,20 +33,19 @@ components:
     volume:
       size: 1G
 commands:
-  - id: 1. Package the application
+  - id: package
     exec:
+      label: "1. Package the application"
       component: development-tooling
-      workingDir: ${PROJECT_SOURCE}/getting-started
-      commandLine: "mvn package"
+      commandLine: "./mvnw package"
       group:
         kind: build
         isDefault: true
   - id: start-dev
     exec:
       label: "2. Start Development mode (Hot reload + debug)"
-      component: tools
-      workingDir: ${PROJECT_SOURCE}/getting-started
-      commandLine: "mvn compile quarkus:dev"
+      component: development-tooling
+      commandLine: "./mvnw compile quarkus:dev"
       group:
         kind: run
         isDefault: true
