@@ -8,8 +8,8 @@ components:
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
-      memoryLimit: 6Gi
-      cpuLimit: 3500m
+      memoryLimit: 4Gi
+      cpuLimit: 1500m
       volumeMounts:
         - name: m2
           path: /home/user/.m2
