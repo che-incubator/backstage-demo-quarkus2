@@ -7,13 +7,13 @@ metadata:
     - java
     - quarkus
   links:
-    - url: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2
+    - url: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2?devfilePath=.devfilev2-theia.yaml
       title: CodeReady Workspaces (Eclipse Theia)
       icon: web
-    - url: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-code/insiders
+    - url: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-code/insiders&devfilePath=.devfilev2-vscode.yaml
       title: CodeReady Workspaces (MS VSCode)
       icon: web    
-    - url: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-idea/next
+    - url: https://che-eclipse-che.apps.cluster-pb2d2.pb2d2.sandbox1409.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-idea/next&devfilePath=.devfilev2-intellij.yaml
       title: CodeReady Workspaces (JetBrains IntelliJ)
       icon: web    
   annotations:
