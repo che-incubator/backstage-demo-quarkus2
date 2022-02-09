@@ -9,7 +9,7 @@ components:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
       memoryLimit: 5Gi
-      cpuLimit: 2500m
+      cpuLimit: 1500m
       volumeMounts:
         - name: m2
           path: /home/user/.m2
