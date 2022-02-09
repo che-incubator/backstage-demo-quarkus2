@@ -30,8 +30,7 @@ components:
           secure: false
           protocol: tcp          
   - name: m2
-    volume:
-      size: 1G
+    volume: {}
 commands:
   - id: package
     exec:
