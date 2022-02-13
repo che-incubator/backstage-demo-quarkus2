@@ -1,6 +1,8 @@
 schemaVersion: 2.1.0
 metadata:
   generateName: my-quarkus2
+attributes:
+  controller.devfile.io/storage-type: ephemeral
 components:
   - name: development-tooling
     container:
