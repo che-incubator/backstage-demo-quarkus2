@@ -1,3 +1,5 @@
+[![Contribute](https://img.shields.io/static/v1?label=dogfooding%20with&message=che-code&logo=eclipseche&color=FDB940&labelColor=525C86)](https://che-dogfooding.apps.che-dev.x6e0.p1.openshiftapps.com#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-code/insiders&devfilePath=.devfilev2-vscode.yaml)
+
 # my-quarkus2 Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
