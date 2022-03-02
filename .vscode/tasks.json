@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "1. Package the application",
+            "type": "shell",
+            "command": "./mvnw",
+            "args": ["package"],
+            "group": "build",
+            "presentation": {
+              "reveal": "always",
+              "panel": "new"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        },
+        {
+            "label": "2. Start Development mode (Hot reload + debug)",
+            "type": "shell",
+            "command": "./mvnw",
+            "args": ["compile", "quarkus:dev"],
+            "group": "build",
+            "presentation": {
+              "reveal": "always",
+              "panel": "new"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ]
+  }
