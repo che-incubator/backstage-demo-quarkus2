@@ -1,6 +1,6 @@
 [![Contribute](https://img.shields.io/static/v1?label=code%20with&message=che-code&logo=eclipseche&color=FDB940&labelColor=525C86)](https://che-dogfooding.apps.che-dev.x6e0.p1.openshiftapps.com#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-code/insiders&devfilePath=.devfilev2-vscode.yaml)
 
-[![Contribute](https://img.shields.io/static/v1?label=code%20with&message=intelliJ&logo=eclipseche&color=FDB940&labelColor=525C86)](https://codeready-openshift-operators.apps.cluster-fjshf.fjshf.sandbox1250.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-idea/next&devfilePath=.devfilev2-intellij.yaml)
+[![Contribute](https://img.shields.io/static/v1?label=code%20with&message=intelliJ&logo=eclipseche&color=FDB940&labelColor=525C86)](https://codeready-openshift-operators.apps.cluster-fjshf.fjshf.sandbox1250.opentlc.com/#https://github.com/che-incubator/backstage-demo-quarkus2?che-editor=che-incubator/che-idea/next)
 
 [![Contribute](https://img.shields.io/static/v1?label=code%20with&message=che-theia&logo=eclipseche&color=FDB940&labelColor=525C86)](https://che-dogfooding.apps.che-dev.x6e0.p1.openshiftapps.com#https://github.com/che-incubator/backstage-demo-quarkus2?devfilePath=.devfilev2-theia.yaml)
 
