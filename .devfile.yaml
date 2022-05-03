@@ -12,9 +12,6 @@ components:
           value: 0.0.0.0
       memoryLimit: 5Gi
       cpuLimit: 1500m
-      volumeMounts:
-        - name: m2
-          path: /home/user/.m2
       endpoints:
         - name: quarkus-development-server
           targetPort: 8080
@@ -30,10 +27,7 @@ components:
           targetPort: 8081
           exposure: none
           secure: false
-          protocol: tcp          
-  - name: m2
-    volume:
-      size: 1G
+          protocol: tcp
 commands:
   - id: package
     exec:
