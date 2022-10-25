@@ -1,17 +1,22 @@
 schemaVersion: 2.1.0
 metadata:
-  generateName: my-quarkus2
+  generateName: backstage-demo-quarkus2
 attributes:
   controller.devfile.io/storage-type: ephemeral
 components:
-  - name: development-tooling
+  - name: development-tools
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
+      image: quay.io/devspaces/udi-rhel8:latest
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
+        - name: MAVEN_OPTS
+          value: "-Dmaven.repo.local=/home/user/.m2/repository" 
       memoryLimit: 5Gi
-      cpuLimit: 1500m
+      cpuLimit: 2500m
+      volumeMounts:
+        - name: m2
+          path: /home/user/.m2
       endpoints:
         - name: quarkus-development-server
           targetPort: 8080
@@ -28,6 +33,9 @@ components:
           exposure: none
           secure: false
           protocol: tcp
+  - name: m2
+    volume:
+      size: 1G
 commands:
   - id: package
     exec:
