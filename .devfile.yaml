@@ -1,6 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
-  generateName: backstage-demo-quarkus2
+  name: backstage-demo-quarkus2
 attributes:
   controller.devfile.io/storage-type: ephemeral
 components:
