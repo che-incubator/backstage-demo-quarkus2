@@ -16,7 +16,7 @@ components:
         - name: m2
           path: /home/user/.m2
       endpoints:
-        - name: quarkus-development-server
+        - name: quarkus-dev
           targetPort: 8080
           exposure: public
           secure: false
