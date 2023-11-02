@@ -8,6 +8,8 @@ components:
       env:
         - name: QUARKUS_HTTP_HOST
           value: 0.0.0.0
+        - name: M2_HOME
+          value: /home/tooling/.sdkman/candidates/maven/current
         - name: MAVEN_OPTS
           value: "-Dmaven.repo.local=/home/user/.m2/repository"
       memoryLimit: 5Gi
